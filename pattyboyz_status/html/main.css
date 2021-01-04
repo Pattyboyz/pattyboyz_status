@@ -1,0 +1,117 @@
+.playerStats{
+    position: absolute;
+    right: 0%;
+    bottom: 25%;
+    font-family: 'Lato', 'Athiti' , sans-serif;
+    z-index: 999999999;
+}
+.status {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    animation: Anim 1s;
+    transform: skewY(5deg);
+    right: 0%;
+}
+#food {
+    float: left;
+    top: -7px;
+    right: -100px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.hunger{
+    width: 200px;
+    height: 5px;
+    position: relative;
+    background: rgba(27, 27, 27, 0.3);
+    margin-top: 3px;
+    top: 0;
+    animation: Anim 0.5s;
+}
+
+.hunger .bg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    right: -180px;
+    top: 0px;
+}
+#boxHealth p{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: -37px;
+    left: 13%;
+    transform: translateX(-50%)skew(-10deg);
+}
+#boxStamina p{
+    color: red;
+    text-shadow:  0 0 10px rgb(255, 9, 9);
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%)skew(-10deg);
+}
+.hungerst .bg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    right: 5px;
+}
+.hunger img{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*สีหลอด*/
+#boxStamina {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(230, 17, 124) 0%, rgb(145, 17, 230) 100%);
+    box-shadow: 0 0 10px 0 #ff07ff8a;
+    width: 100%;
+    height: 100%;
+}
+
+#boxHunger {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(255, 188, 2) 0%, rgb(255, 175, 2) 100%);
+    box-shadow: 0 0 10px 0 #f7a2228a;
+    width: 100%;
+    height: 100%;
+}
+
+#boxThirst {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(17, 102, 230) 0%, rgb(17, 187, 230) 100%);
+    box-shadow: 0 0 10px 0 #22c5f78a;
+    width: 100%;
+    height: 100%;
+}
+
+#boxHealth {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(230, 17, 106) 0%, rgb(230, 155, 17) 100%);
+    /* box-shadow: 0 0 10px 0 #f7222d8a; */
+    width: 100%;
+    height: 100%;
+}
+
+#boxArmor {
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17, 102, 230, 0.3) 0%, rgba(17, 152, 230, 0.3) 100%);
+    width: 100%;
+    height: 100%;
+}
+
+#boxVoice {
+	background: rgba(112, 112, 112, 0.363);
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    height:1080px;
+    width:100%;
+}
